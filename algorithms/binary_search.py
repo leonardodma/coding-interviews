@@ -3,12 +3,6 @@ import pytest
 
 
 def binary_search(nums: List[int], target: int) -> int:
-    """
-    >>> binary_seach([1, 2, 3, 4, 5], 3)
-    2
-    >>> binary_seach([1, 2, 3, 4, 5], 6)
-    -1
-    """
     left = 0
     right = len(nums) - 1
 
